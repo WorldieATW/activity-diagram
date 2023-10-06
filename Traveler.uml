@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_onDwQGQXEe6O4aM_R8TeLg" name="Traveler">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_onhDQGQXEe6O4aM_R8TeLg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_t1lDkGQXEe6O4aM_R8TeLg" name="Basic Flow Mengelola World Post" node="_ry_EQGQYEe6O4aM_R8TeLg _0gEJIGQYEe6O4aM_R8TeLg _j8P8EGQZEe6O4aM_R8TeLg _vEzvcGQaEe6O4aM_R8TeLg __fc88GQaEe6O4aM_R8TeLg _ptUQ4GQbEe6O4aM_R8TeLg _T0dRwGQcEe6O4aM_R8TeLg _bwvy4GQcEe6O4aM_R8TeLg _h5Cm0GQcEe6O4aM_R8TeLg _mFKB8GQcEe6O4aM_R8TeLg _kuqToGQdEe6O4aM_R8TeLg _Hxs_oGQeEe6O4aM_R8TeLg _eTUEAGQhEe6O4aM_R8TeLg _h9dagGQhEe6O4aM_R8TeLg _yqKBUGQhEe6O4aM_R8TeLg _HIpewGQiEe6O4aM_R8TeLg _O2bp0GQiEe6O4aM_R8TeLg _ZJi4YGQiEe6O4aM_R8TeLg _kszgMGQiEe6O4aM_R8TeLg _w-0EYGQiEe6O4aM_R8TeLg _-YCvUGQiEe6O4aM_R8TeLg" group="_Vq5csGQhEe6O4aM_R8TeLg _7TjqoGQiEe6O4aM_R8TeLg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_P-mP8GQbEe6O4aM_R8TeLg" target="_vEzvcGQaEe6O4aM_R8TeLg" source="__fc88GQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BGYpEGQcEe6O4aM_R8TeLg" name="melihat detail suatu World Post" target="_ptUQ4GQbEe6O4aM_R8TeLg" source="_vEzvcGQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sbf48GQcEe6O4aM_R8TeLg" name="membuat World Post" target="_T0dRwGQcEe6O4aM_R8TeLg" source="_vEzvcGQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8mjLQGQcEe6O4aM_R8TeLg" name="menghapus World Post" target="_bwvy4GQcEe6O4aM_R8TeLg" source="_vEzvcGQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_D2068GQdEe6O4aM_R8TeLg" name="mengelola like pada suatu World Post" target="_h5Cm0GQcEe6O4aM_R8TeLg" source="_vEzvcGQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_asXIQGQdEe6O4aM_R8TeLg" name="mengelola comment pada suatu World Post" target="_mFKB8GQcEe6O4aM_R8TeLg" source="_vEzvcGQaEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vEk-kGQdEe6O4aM_R8TeLg" target="_kuqToGQdEe6O4aM_R8TeLg" source="_h5Cm0GQcEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y-cMEGQdEe6O4aM_R8TeLg" target="_kuqToGQdEe6O4aM_R8TeLg" source="_mFKB8GQcEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PANNsGQeEe6O4aM_R8TeLg" target="_kuqToGQdEe6O4aM_R8TeLg" source="_Hxs_oGQeEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Yk-IgGQeEe6O4aM_R8TeLg" target="_Hxs_oGQeEe6O4aM_R8TeLg" source="_ptUQ4GQbEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZmAHsGQeEe6O4aM_R8TeLg" target="_Hxs_oGQeEe6O4aM_R8TeLg" source="_T0dRwGQcEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_br_j0GQeEe6O4aM_R8TeLg" target="_Hxs_oGQeEe6O4aM_R8TeLg" source="_bwvy4GQcEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_peLZ8GQhEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_h9dagGQhEe6O4aM_R8TeLg" source="_eTUEAGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3QghYGQhEe6O4aM_R8TeLg" name="melihat detail suatu World Post" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_yqKBUGQhEe6O4aM_R8TeLg" source="_h9dagGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K0ooUGQiEe6O4aM_R8TeLg" name="membuat World Post" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_HIpewGQiEe6O4aM_R8TeLg" source="_h9dagGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_T8Df0GQiEe6O4aM_R8TeLg" name="menghapus World Post" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_O2bp0GQiEe6O4aM_R8TeLg" source="_h9dagGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gbyW8GQiEe6O4aM_R8TeLg" name="mengelola like pada suatu World Post" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_ZJi4YGQiEe6O4aM_R8TeLg" source="_h9dagGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pmPUUGQiEe6O4aM_R8TeLg" name="mengelola comment pada suatu World Post" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_kszgMGQiEe6O4aM_R8TeLg" source="_h9dagGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1FPHMGQiEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_w-0EYGQiEe6O4aM_R8TeLg" source="_ZJi4YGQiEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1enQgGQiEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg" target="_w-0EYGQiEe6O4aM_R8TeLg" source="_kszgMGQiEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FTRcEGQjEe6O4aM_R8TeLg" target="_w-0EYGQiEe6O4aM_R8TeLg" source="_-YCvUGQiEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_J-RyoGQjEe6O4aM_R8TeLg" target="_-YCvUGQiEe6O4aM_R8TeLg" source="_yqKBUGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KfaJwGQjEe6O4aM_R8TeLg" target="_-YCvUGQiEe6O4aM_R8TeLg" source="_HIpewGQiEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K07GwGQjEe6O4aM_R8TeLg" target="_-YCvUGQiEe6O4aM_R8TeLg" source="_O2bp0GQiEe6O4aM_R8TeLg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Vq5csGQhEe6O4aM_R8TeLg" name="Actor's Action" node="_eTUEAGQhEe6O4aM_R8TeLg _h9dagGQhEe6O4aM_R8TeLg _yqKBUGQhEe6O4aM_R8TeLg _HIpewGQiEe6O4aM_R8TeLg _O2bp0GQiEe6O4aM_R8TeLg _ZJi4YGQiEe6O4aM_R8TeLg _kszgMGQiEe6O4aM_R8TeLg _w-0EYGQiEe6O4aM_R8TeLg" edge="_peLZ8GQhEe6O4aM_R8TeLg _3QghYGQhEe6O4aM_R8TeLg _K0ooUGQiEe6O4aM_R8TeLg _T8Df0GQiEe6O4aM_R8TeLg _gbyW8GQiEe6O4aM_R8TeLg _pmPUUGQiEe6O4aM_R8TeLg _1FPHMGQiEe6O4aM_R8TeLg _1enQgGQiEe6O4aM_R8TeLg">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_Vq5csWQhEe6O4aM_R8TeLg" name="Actor's Action"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_7TjqoGQiEe6O4aM_R8TeLg" name="System's Response" node="_-YCvUGQiEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ry_EQGQYEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0gEJIGQYEe6O4aM_R8TeLg" name="OpaqueAction4"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_j8P8EGQZEe6O4aM_R8TeLg" name="DecisionNode13" visibility="public"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_vEzvcGQaEe6O4aM_R8TeLg" name="Pilih Aktifitas" visibility="package" incoming="_P-mP8GQbEe6O4aM_R8TeLg" outgoing="_BGYpEGQcEe6O4aM_R8TeLg _sbf48GQcEe6O4aM_R8TeLg _8mjLQGQcEe6O4aM_R8TeLg _D2068GQdEe6O4aM_R8TeLg _asXIQGQdEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="__fc88GQaEe6O4aM_R8TeLg" name="" outgoing="_P-mP8GQbEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ptUQ4GQbEe6O4aM_R8TeLg" name="Lanjut ke Subflow S1 [Melihat Detail suatu World Post]" incoming="_BGYpEGQcEe6O4aM_R8TeLg" outgoing="_Yk-IgGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_T0dRwGQcEe6O4aM_R8TeLg" name="Lanjut ke Subflow S2 [Membuat World Post]" incoming="_sbf48GQcEe6O4aM_R8TeLg" outgoing="_ZmAHsGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bwvy4GQcEe6O4aM_R8TeLg" name="Lanjut ke Subflow S3 [Menghapus World Post]" incoming="_8mjLQGQcEe6O4aM_R8TeLg" outgoing="_br_j0GQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_h5Cm0GQcEe6O4aM_R8TeLg" name="Lanjut ke Use Case &quot;Mengelola like World Post&quot;" incoming="_D2068GQdEe6O4aM_R8TeLg" outgoing="_vEk-kGQdEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_mFKB8GQcEe6O4aM_R8TeLg" name="Lanjut ke Use Case &quot;Mengelola comment World Post&quot;" incoming="_asXIQGQdEe6O4aM_R8TeLg" outgoing="_y-cMEGQdEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_kuqToGQdEe6O4aM_R8TeLg" incoming="_vEk-kGQdEe6O4aM_R8TeLg _y-cMEGQdEe6O4aM_R8TeLg _PANNsGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Hxs_oGQeEe6O4aM_R8TeLg" name="Menampilkan halaman berisi daftar seluruh World Post" incoming="_Yk-IgGQeEe6O4aM_R8TeLg _ZmAHsGQeEe6O4aM_R8TeLg _br_j0GQeEe6O4aM_R8TeLg" outgoing="_PANNsGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_eTUEAGQhEe6O4aM_R8TeLg" outgoing="_peLZ8GQhEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_h9dagGQhEe6O4aM_R8TeLg" name="Pilih Aktifitas" visibility="public" incoming="_peLZ8GQhEe6O4aM_R8TeLg" outgoing="_3QghYGQhEe6O4aM_R8TeLg _K0ooUGQiEe6O4aM_R8TeLg _T8Df0GQiEe6O4aM_R8TeLg _gbyW8GQiEe6O4aM_R8TeLg _pmPUUGQiEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yqKBUGQhEe6O4aM_R8TeLg" name="Lanjut ke Subflow S1 [Melihat Detail Suatu World Post]" incoming="_3QghYGQhEe6O4aM_R8TeLg" outgoing="_J-RyoGQjEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HIpewGQiEe6O4aM_R8TeLg" name="Lanjut ke Subflow S2 [Membuat World Post]" incoming="_K0ooUGQiEe6O4aM_R8TeLg" outgoing="_KfaJwGQjEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_O2bp0GQiEe6O4aM_R8TeLg" name="Lanjut ke Subflow S3 [Menghapus World Post]" incoming="_T8Df0GQiEe6O4aM_R8TeLg" outgoing="_K07GwGQjEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZJi4YGQiEe6O4aM_R8TeLg" name="Lanjut ke Use Case &quot;Mengelola like World Post&quot;" incoming="_gbyW8GQiEe6O4aM_R8TeLg" outgoing="_1FPHMGQiEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_kszgMGQiEe6O4aM_R8TeLg" name="Lanjut ke Use Case &quot;Mengelola comment World Post&quot;" incoming="_pmPUUGQiEe6O4aM_R8TeLg" outgoing="_1enQgGQiEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_w-0EYGQiEe6O4aM_R8TeLg" incoming="_1FPHMGQiEe6O4aM_R8TeLg _1enQgGQiEe6O4aM_R8TeLg _FTRcEGQjEe6O4aM_R8TeLg" inPartition="_Vq5csGQhEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-YCvUGQiEe6O4aM_R8TeLg" name="Menampilkan halaman berisi daftar seluruh World Post" incoming="_J-RyoGQjEe6O4aM_R8TeLg _KfaJwGQjEe6O4aM_R8TeLg _K07GwGQjEe6O4aM_R8TeLg" outgoing="_FTRcEGQjEe6O4aM_R8TeLg" inPartition="_7TjqoGQiEe6O4aM_R8TeLg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_fPffwGQeEe6O4aM_R8TeLg" name="Subflow S1 [Melihat detail suatu World Post]" node="_vhhj0GQeEe6O4aM_R8TeLg _0OBvMGQeEe6O4aM_R8TeLg _EO2ugGQfEe6O4aM_R8TeLg _MfnDwGQfEe6O4aM_R8TeLg" group="_rpm3EGQeEe6O4aM_R8TeLg _7u-YIGQeEe6O4aM_R8TeLg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TtsbEGQfEe6O4aM_R8TeLg" inPartition="_rpm3EGQeEe6O4aM_R8TeLg" target="_0OBvMGQeEe6O4aM_R8TeLg" source="_vhhj0GQeEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UnXOAGQfEe6O4aM_R8TeLg" target="_EO2ugGQfEe6O4aM_R8TeLg" source="_0OBvMGQeEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WzfuYGQfEe6O4aM_R8TeLg" target="_MfnDwGQfEe6O4aM_R8TeLg" source="_EO2ugGQfEe6O4aM_R8TeLg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_rpm3EGQeEe6O4aM_R8TeLg" name="Actor's Action" node="_vhhj0GQeEe6O4aM_R8TeLg _0OBvMGQeEe6O4aM_R8TeLg _MfnDwGQfEe6O4aM_R8TeLg" edge="_TtsbEGQfEe6O4aM_R8TeLg">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_rpm3EWQeEe6O4aM_R8TeLg" name="Actor's Action"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_7u-YIGQeEe6O4aM_R8TeLg" name="System's Response" node="_EO2ugGQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_vhhj0GQeEe6O4aM_R8TeLg" outgoing="_TtsbEGQfEe6O4aM_R8TeLg" inPartition="_rpm3EGQeEe6O4aM_R8TeLg">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0OBvMGQeEe6O4aM_R8TeLg" name="Menekan salah satu World Post" incoming="_TtsbEGQfEe6O4aM_R8TeLg" outgoing="_UnXOAGQfEe6O4aM_R8TeLg" inPartition="_rpm3EGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EO2ugGQfEe6O4aM_R8TeLg" name="Menampilkan halaman berisi detail suatu World Post" incoming="_UnXOAGQfEe6O4aM_R8TeLg" outgoing="_WzfuYGQfEe6O4aM_R8TeLg" inPartition="_7u-YIGQeEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_MfnDwGQfEe6O4aM_R8TeLg" incoming="_WzfuYGQfEe6O4aM_R8TeLg" inPartition="_rpm3EGQeEe6O4aM_R8TeLg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_f7TAYGQfEe6O4aM_R8TeLg" name="Subflow S2 [Membuat World Post]" node="_qs-aQGQfEe6O4aM_R8TeLg _sxblUGQfEe6O4aM_R8TeLg _yoh7kGQfEe6O4aM_R8TeLg _JLH-wGQgEe6O4aM_R8TeLg _F1FakGQhEe6O4aM_R8TeLg _xPoSIGQjEe6O4aM_R8TeLg _P6A70GQkEe6O4aM_R8TeLg _TQmdIGQkEe6O4aM_R8TeLg _zZfsMGQkEe6O4aM_R8TeLg _ERIXsGQlEe6O4aM_R8TeLg _fCzDYGQlEe6O4aM_R8TeLg _4wAocGQlEe6O4aM_R8TeLg" group="_mTZx8GQfEe6O4aM_R8TeLg _eh0vMGQjEe6O4aM_R8TeLg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w2vN0GQfEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg" target="_sxblUGQfEe6O4aM_R8TeLg" source="_qs-aQGQfEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WpHN4GQgEe6O4aM_R8TeLg" target="_JLH-wGQgEe6O4aM_R8TeLg" source="_sxblUGQfEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ojUCQGQjEe6O4aM_R8TeLg" target="_yoh7kGQfEe6O4aM_R8TeLg" source="_JLH-wGQgEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YsLVAGQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg" target="_xPoSIGQjEe6O4aM_R8TeLg" source="_yoh7kGQfEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bbFLQGQkEe6O4aM_R8TeLg" name="simpan pembuatan World Post" inPartition="_mTZx8GQfEe6O4aM_R8TeLg" target="_P6A70GQkEe6O4aM_R8TeLg" source="_xPoSIGQjEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gUi0kGQkEe6O4aM_R8TeLg" name="batalkan pembuatan World Post" inPartition="_mTZx8GQfEe6O4aM_R8TeLg" target="_TQmdIGQkEe6O4aM_R8TeLg" source="_xPoSIGQjEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3eiO8GQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg" target="_zZfsMGQkEe6O4aM_R8TeLg" source="_TQmdIGQkEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__54DkGQkEe6O4aM_R8TeLg" target="_F1FakGQhEe6O4aM_R8TeLg" source="_P6A70GQkEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KIFkAGQlEe6O4aM_R8TeLg" inPartition="_eh0vMGQjEe6O4aM_R8TeLg" target="_ERIXsGQlEe6O4aM_R8TeLg" source="_F1FakGQhEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N9l18GQlEe6O4aM_R8TeLg" name="tidak valid" inPartition="_eh0vMGQjEe6O4aM_R8TeLg" target="_JLH-wGQgEe6O4aM_R8TeLg" source="_ERIXsGQlEe6O4aM_R8TeLg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qTU8cGQlEe6O4aM_R8TeLg" name="valid" inPartition="_eh0vMGQjEe6O4aM_R8TeLg" target="_fCzDYGQlEe6O4aM_R8TeLg" source="_ERIXsGQlEe6O4aM_R8TeLg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_mTZx8GQfEe6O4aM_R8TeLg" name="Actor's Action" node="_qs-aQGQfEe6O4aM_R8TeLg _sxblUGQfEe6O4aM_R8TeLg _yoh7kGQfEe6O4aM_R8TeLg _xPoSIGQjEe6O4aM_R8TeLg _P6A70GQkEe6O4aM_R8TeLg _TQmdIGQkEe6O4aM_R8TeLg _zZfsMGQkEe6O4aM_R8TeLg" edge="_w2vN0GQfEe6O4aM_R8TeLg _YsLVAGQkEe6O4aM_R8TeLg _bbFLQGQkEe6O4aM_R8TeLg _gUi0kGQkEe6O4aM_R8TeLg _3eiO8GQkEe6O4aM_R8TeLg">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_mTZx8WQfEe6O4aM_R8TeLg" name="Actor's Action"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_eh0vMGQjEe6O4aM_R8TeLg" name="System's Response" node="_JLH-wGQgEe6O4aM_R8TeLg _F1FakGQhEe6O4aM_R8TeLg _ERIXsGQlEe6O4aM_R8TeLg _fCzDYGQlEe6O4aM_R8TeLg _4wAocGQlEe6O4aM_R8TeLg" edge="_KIFkAGQlEe6O4aM_R8TeLg _N9l18GQlEe6O4aM_R8TeLg _qTU8cGQlEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_qs-aQGQfEe6O4aM_R8TeLg" outgoing="_w2vN0GQfEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_sxblUGQfEe6O4aM_R8TeLg" name="Memilih menu &quot;Membuat World Post&quot;" incoming="_w2vN0GQfEe6O4aM_R8TeLg" outgoing="_WpHN4GQgEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yoh7kGQfEe6O4aM_R8TeLg" name="Mengisi form pembuatan World Post" incoming="_ojUCQGQjEe6O4aM_R8TeLg" outgoing="_YsLVAGQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JLH-wGQgEe6O4aM_R8TeLg" name="Menampilkan form pembuatan World Post yang harus diisi dan dapat berisi teks, foto, dan video, tetapi tidak dapat berisi whitespace saja" incoming="_WpHN4GQgEe6O4aM_R8TeLg _N9l18GQlEe6O4aM_R8TeLg" outgoing="_ojUCQGQjEe6O4aM_R8TeLg" inPartition="_eh0vMGQjEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_F1FakGQhEe6O4aM_R8TeLg" name="Melakukan validasi dari isian form" incoming="__54DkGQkEe6O4aM_R8TeLg" outgoing="_KIFkAGQlEe6O4aM_R8TeLg" inPartition="_eh0vMGQjEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_xPoSIGQjEe6O4aM_R8TeLg" name="Simpan/Batalkan Pembuatan World Post?" visibility="public" incoming="_YsLVAGQkEe6O4aM_R8TeLg" outgoing="_bbFLQGQkEe6O4aM_R8TeLg _gUi0kGQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_P6A70GQkEe6O4aM_R8TeLg" name="Memilih menu &quot;Simpan&quot;" incoming="_bbFLQGQkEe6O4aM_R8TeLg" outgoing="__54DkGQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TQmdIGQkEe6O4aM_R8TeLg" name="Memilih menu &quot;Batal&quot;" incoming="_gUi0kGQkEe6O4aM_R8TeLg" outgoing="_3eiO8GQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_zZfsMGQkEe6O4aM_R8TeLg" incoming="_3eiO8GQkEe6O4aM_R8TeLg" inPartition="_mTZx8GQfEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ERIXsGQlEe6O4aM_R8TeLg" name="Isian form valid?" visibility="public" incoming="_KIFkAGQlEe6O4aM_R8TeLg" outgoing="_N9l18GQlEe6O4aM_R8TeLg _qTU8cGQlEe6O4aM_R8TeLg" inPartition="_eh0vMGQjEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fCzDYGQlEe6O4aM_R8TeLg" name="Menyimpan data World Post dan menambahkan World Post" incoming="_qTU8cGQlEe6O4aM_R8TeLg" inPartition="_eh0vMGQjEe6O4aM_R8TeLg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_4wAocGQlEe6O4aM_R8TeLg" name="Berhasil menambahkan World Post?" visibility="public" inPartition="_eh0vMGQjEe6O4aM_R8TeLg"/>
+  </packagedElement>
+</uml:Model>
